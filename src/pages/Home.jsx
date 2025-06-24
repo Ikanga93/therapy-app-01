@@ -77,7 +77,7 @@ export default function Home() {
               </div>
             </div>
             
-            <div className="hero-image">
+            <div className="hero-image hero-image-mobile-order">
               <Link to="/about" className="profile-card-link">
                 <div className="profile-card interactive">
                   <div className="profile-image">
