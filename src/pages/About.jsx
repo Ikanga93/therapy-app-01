@@ -106,20 +106,20 @@ const About = () => {
                   <div className="stat-content">
                     <span className="stat-number">All Ages</span>
                     <span className="stat-label">Populations Served</span>
-                  </div>
-                </div>
+                    </div>
+                    </div>
                 
                 <div className="stat-card">
                   <div className="stat-icon">
                     <Award size={24} />
-                  </div>
+                    </div>
                   <div className="stat-content">
                     <span className="stat-number">Verified</span>
                     <span className="stat-label">Psychology Today</span>
                   </div>
                 </div>
               </div>
-              
+
               <div className="profile-description">
                 <p>
                   It takes a lot of strength and courage to seek help when you are hurting, feel like things 
@@ -144,7 +144,7 @@ const About = () => {
           <div className="experience-content">
             <div className="experience-text">
               <h2>Comprehensive Care Across Diverse Settings</h2>
-              <p>
+                <p>
                 I am a licensed psychologist with over 20 years of experience in mental health. 
                 I have worked with diverse populations in diverse settings, bringing cultural 
                 competence and evidence-based practices to every therapeutic relationship.
@@ -189,7 +189,7 @@ const About = () => {
                   and family systems approaches.
                 </p>
               </div>
-              
+
               <div className="approach-card modern">
                 <div className="card-icon">
                   <Heart size={32} />
@@ -200,7 +200,7 @@ const About = () => {
                   and experiences.
                 </p>
               </div>
-              
+                
               <div className="approach-card modern">
                 <div className="card-icon">
                   <Target size={32} />
@@ -210,10 +210,10 @@ const About = () => {
                   Offering thorough psychological testing and evaluation services for 
                   accurate diagnosis and treatment planning.
                 </p>
-              </div>
-            </div>
-          </div>
-        </div>
+                  </div>
+                  </div>
+                  </div>
+                </div>
       </section>
 
       {/* Specialties & Expertise */}
@@ -239,7 +239,7 @@ const About = () => {
                 <span>Testing & Evaluation</span>
               </div>
             </div>
-            
+
             <div className="specialty-category">
               <div className="category-header">
                 <Users size={28} />
@@ -254,7 +254,7 @@ const About = () => {
                 <span>Bipolar Disorder</span>
                 <span>Family Conflict</span>
                 <span>Life Transitions</span>
-              </div>
+                  </div>
             </div>
             
             <div className="specialty-category">
@@ -271,15 +271,15 @@ const About = () => {
                 <span>Military & Veterans</span>
                 <span>Healthcare Workers</span>
                 <span>First Responders</span>
+                </div>
               </div>
-            </div>
-            
+
             <div className="specialty-category">
               <div className="category-header">
                 <Lightbulb size={28} />
                 <h3>Treatment Approaches</h3>
               </div>
-              <div className="specialty-tags">
+                <div className="specialty-tags">
                 <span>Cognitive Behavioral (CBT)</span>
                 <span>Trauma-Focused Therapy</span>
                 <span>Family Systems</span>
@@ -306,8 +306,8 @@ const About = () => {
                 my work and use different interventions to meet the needs of those with whom I 
                 am entrusted to work.
               </p>
-            </div>
-            
+              </div>
+
             <div className="cta-actions-about">
               <a href="tel:(217) 269-8769" className="btn btn-primary large">
                 <Phone size={20} />

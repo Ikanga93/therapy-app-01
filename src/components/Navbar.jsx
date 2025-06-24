@@ -52,7 +52,7 @@ const Navbar = () => {
             (217) 269-8769
           </a>
 
-          <button
+          <button 
             className={`hamburger ${isOpen ? 'hamburger-open' : ''}`}
             onClick={() => setIsOpen(!isOpen)}
             aria-label="Toggle menu"
@@ -65,20 +65,20 @@ const Navbar = () => {
       </nav>
 
       <div className={`nav-overlay ${isOpen ? 'nav-overlay-visible' : ''}`} onClick={() => setIsOpen(false)} />
-      
+
       <div className={`mobile-menu ${isOpen ? 'mobile-menu-open' : ''}`}>
-        <div className="mobile-menu-content">
+          <div className="mobile-menu-content">
           {navLinks.map((link, index) => (
-            <Link
+              <Link
               key={link.name}
               to={link.path}
               className={`mobile-nav-link ${isActive(link.path) ? 'mobile-nav-link-active' : ''}`}
               onClick={() => setIsOpen(false)}
-              style={{ animationDelay: `${index * 0.1}s` }}
-            >
+                style={{ animationDelay: `${index * 0.1}s` }}
+              >
               {link.name}
-            </Link>
-          ))}
+              </Link>
+            ))}
           
           <a 
             href="tel:(217) 269-8769" 
@@ -87,9 +87,9 @@ const Navbar = () => {
           >
             <Phone size={18} />
             Call (217) 269-8769
-          </a>
+            </a>
+          </div>
         </div>
-      </div>
     </>
   )
 }

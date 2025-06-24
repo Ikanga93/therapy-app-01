@@ -64,7 +64,7 @@ const Contact = () => {
                   <p>Available both in-person and online</p>
                 </div>
               </div>
-              
+
               <div className="contact-card-content">
                 <p>
                   I am here to help you through the process of regaining control of your life, 
@@ -90,7 +90,7 @@ const Contact = () => {
                     <span>If you have symptoms, please reschedule in-person to video</span>
                   </div>
                 </div>
-                
+
                 <div className="primary-cta">
                   <a href="tel:(217) 269-8769" className="btn btn-primary large">
                     <Phone size={20} />
@@ -98,9 +98,9 @@ const Contact = () => {
                     <ArrowRight size={20} />
                   </a>
                 </div>
-              </div>
-            </div>
-            
+                  </div>
+                </div>
+
             {/* Doctor Profile Card */}
             <div className="doctor-profile-card">
               <div className="profile-visual-contact">
@@ -111,7 +111,7 @@ const Contact = () => {
                   </div>
                 </div>
               </div>
-              
+
               <div className="profile-info-contact">
                 <h3>Dr. Dynesha D Grissom</h3>
                 <p className="credentials">PhD, LCP, MSCP (she/her)</p>
@@ -148,14 +148,14 @@ const Contact = () => {
                 <div className="method-features">
                   <span>Immediate scheduling</span>
                   <span>Questions answered</span>
-                </div>
-              </div>
-            </div>
+                  </div>
+                  </div>
+                  </div>
 
             <div className="contact-method-card">
               <div className="method-icon">
                 <Video size={32} />
-              </div>
+                  </div>
               <div className="method-content">
                 <h3>Video Sessions</h3>
                 <p>Secure online therapy from the comfort of your home</p>
@@ -183,9 +183,9 @@ const Contact = () => {
                   <span>Private and confidential</span>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
+                  </div>
+                  </div>
+                  </div>
       </section>
 
       {/* Practice Information */}
@@ -197,7 +197,7 @@ const Contact = () => {
               <div className="card-header">
                 <MapPin size={28} />
                 <h3>Office Location</h3>
-              </div>
+                  </div>
               <div className="card-content">
                 <div className="location-details">
                   <h4>YMG Psychological Services, PLLC</h4>
@@ -206,7 +206,7 @@ const Contact = () => {
                     Building C, Suite 132<br />
                     Champaign, IL 61820
                   </div>
-                </div>
+                  </div>
                 
                 <div className="areas-served">
                   <h4>Areas Served</h4>
@@ -218,7 +218,7 @@ const Contact = () => {
                   </div>
                 </div>
               </div>
-            </div>
+              </div>
 
             {/* Insurance Card */}
             <div className="info-card insurance-card">
@@ -229,25 +229,25 @@ const Contact = () => {
               <div className="card-content">
                 <div className="insurance-accepted">
                   <h4>Insurance Accepted</h4>
-                  <div className="insurance-list">
-                    <div className="insurance-item">
-                      <CheckCircle size={16} />
-                      <span>Aetna</span>
-                    </div>
-                    <div className="insurance-item">
-                      <CheckCircle size={16} />
-                      <span>BlueCross BlueShield</span>
-                    </div>
+                <div className="insurance-list">
+                  <div className="insurance-item">
+                    <CheckCircle size={16} />
+                    <span>Aetna</span>
+                  </div>
+                  <div className="insurance-item">
+                    <CheckCircle size={16} />
+                    <span>BlueCross BlueShield</span>
+                  </div>
                     <div className="insurance-item">
                       <CheckCircle size={16} />
                       <span>Cigna</span>
                     </div>
-                    <div className="insurance-item">
-                      <CheckCircle size={16} />
-                      <span>Health Alliance</span>
-                    </div>
-                    <div className="insurance-item">
-                      <CheckCircle size={16} />
+                  <div className="insurance-item">
+                    <CheckCircle size={16} />
+                    <span>Health Alliance</span>
+                  </div>
+                  <div className="insurance-item">
+                    <CheckCircle size={16} />
                       <span>Optum</span>
                     </div>
                     <div className="insurance-item">
@@ -271,7 +271,7 @@ const Contact = () => {
                     <div className="payment-item">
                       <Building size={16} />
                       <span>HSA</span>
-                    </div>
+              </div>
                   </div>
                 </div>
               </div>
@@ -287,20 +287,20 @@ const Contact = () => {
                 <div className="session-types">
                   <div className="session-type">
                     <Video size={20} />
-                    <div>
+                  <div>
                       <h4>Video Sessions</h4>
                       <p>Secure online appointments</p>
                     </div>
                   </div>
                   <div className="session-type">
                     <UserCheck size={20} />
-                    <div>
+                  <div>
                       <h4>In-Person Sessions</h4>
                       <p>Traditional office visits</p>
-                    </div>
                   </div>
                 </div>
-                
+              </div>
+
                 <div className="scheduling-note">
                   <h4>Flexible Scheduling</h4>
                   <p>Dr. Grissom works to accommodate your schedule with both daytime and evening appointment options.</p>

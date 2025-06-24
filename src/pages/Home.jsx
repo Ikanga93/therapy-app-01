@@ -77,7 +77,7 @@ export default function Home() {
               </div>
             </div>
             
-            <div className="hero-image hero-image-mobile-order">
+            <div className="hero-image">
               <Link to="/about" className="profile-card-link">
                 <div className="profile-card interactive">
                   <div className="profile-image">
@@ -239,26 +239,26 @@ export default function Home() {
               </div>
             </div>
             
-            <div className="credentials-showcase">
-              <div className="credential-badge">
+              <div className="credentials-showcase">
+                <div className="credential-badge">
                 <CheckCircle size={32} />
-                <div>
+                  <div>
                   <h3>Licensed Psychologist</h3>
                   <p>Illinois License #071010029</p>
+                  </div>
                 </div>
-              </div>
-              
-              <div className="credential-badge">
-                <Star size={32} />
-                <div>
+                
+                <div className="credential-badge">
+                  <Star size={32} />
+                  <div>
                   <h3>Psychology Today Verified</h3>
                   <p>Verified professional profile</p>
+                  </div>
                 </div>
-              </div>
-              
-              <div className="credential-badge">
+                
+                <div className="credential-badge">
                 <Award size={32} />
-                <div>
+                  <div>
                   <h3>20+ Years Experience</h3>
                   <p>Since 2001 in practice</p>
                 </div>
@@ -311,4 +311,4 @@ export default function Home() {
       </section>
     </div>
   );
-} 
+}

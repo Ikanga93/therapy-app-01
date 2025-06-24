@@ -73,9 +73,9 @@ const Footer = () => {
                     <p>Advanced clinical credentials</p>
                   </div>
                 </div>
+                </div>
               </div>
             </div>
-          </div>
 
           {/* Main Sections */}
           <div className="footer-sections">
@@ -129,7 +129,7 @@ const Footer = () => {
                     <p>
                       YMG Psychological Services, PLLC<br />
                       701 Devonshire Drive, Building C, Suite 132<br />
-                      Champaign, IL 61820
+                    Champaign, IL 61820
                     </p>
                   </div>
                 </div>

@@ -78,18 +78,18 @@ const Services = () => {
                   healing at their own pace.
                 </p>
                 <div className="specialty-details">
-                  <h4>What I treat:</h4>
-                  <ul>
-                    <li>Post-Traumatic Stress Disorder (PTSD)</li>
-                    <li>Complex trauma and childhood trauma</li>
+                <h4>What I treat:</h4>
+                <ul>
+                  <li>Post-Traumatic Stress Disorder (PTSD)</li>
+                  <li>Complex trauma and childhood trauma</li>
                     <li>Sexual abuse and assault trauma</li>
                     <li>Combat and military trauma</li>
                     <li>Secondary trauma for caregivers</li>
-                  </ul>
-                  <div className="approach-tags">
+                </ul>
+                <div className="approach-tags">
                     <span>Trauma-Focused CBT</span>
                     <span>Cognitive Processing</span>
-                    <span>EMDR</span>
+                  <span>EMDR</span>
                     <span>Exposure Therapy</span>
                   </div>
                 </div>
@@ -115,13 +115,13 @@ const Services = () => {
                 </p>
                 <div className="specialty-details">
                   <h4>Types of grief and loss:</h4>
-                  <ul>
+                <ul>
                     <li>Death of loved ones</li>
                     <li>Divorce and relationship endings</li>
                     <li>Job loss and career transitions</li>
                     <li>Health diagnoses and chronic illness</li>
                     <li>Life transitions and major changes</li>
-                  </ul>
+                </ul>
                 </div>
               </div>
             </div>
@@ -167,7 +167,7 @@ const Services = () => {
             <p>
               Personalized care for individuals, couples, and families across all age groups 
               with a focus on evidence-based treatment and cultural competence.
-            </p>
+                </p>
           </div>
           
           <div className="services-grid">
@@ -183,14 +183,14 @@ const Services = () => {
                 <div className="service-areas">
                   <div className="area-group">
                     <h4>Common Concerns</h4>
-                    <ul>
+                <ul>
                       <li>Anxiety and panic disorders</li>
                       <li>Depression and mood disorders</li>
-                      <li>Life transitions and adjustment</li>
+                  <li>Life transitions and adjustment</li>
                       <li>Self-esteem and identity concerns</li>
-                      <li>Stress management</li>
+                  <li>Stress management</li>
                       <li>Sleep and insomnia issues</li>
-                    </ul>
+                </ul>
                   </div>
                 </div>
               </div>
@@ -233,14 +233,14 @@ const Services = () => {
                 <div className="service-areas">
                   <div className="area-group">
                     <h4>Youth Concerns</h4>
-                    <ul>
+                <ul>
                       <li>ADHD and attention difficulties</li>
                       <li>Autism spectrum disorders</li>
                       <li>Behavioral issues and defiance</li>
                       <li>Developmental concerns</li>
                       <li>School-related challenges</li>
                       <li>Peer relationship problems</li>
-                    </ul>
+                </ul>
                   </div>
                 </div>
               </div>
@@ -283,9 +283,9 @@ const Services = () => {
                 <div>
                   <h4>Family Systems Therapy</h4>
                   <p>Understanding and improving family dynamics and relationships</p>
-                </div>
-              </div>
-              
+            </div>
+          </div>
+
               <div className="approach-item">
                 <Target size={24} />
                 <div>
@@ -332,8 +332,8 @@ const Services = () => {
                   <span>Health Alliance</span>
                   <span>Optum</span>
                   <span>UnitedHealthcare</span>
-                </div>
-                
+            </div>
+
                 <h4>Payment Methods</h4>
                 <div className="payment-methods">
                   <div className="payment-item">
