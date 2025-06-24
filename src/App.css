@@ -1105,28 +1105,32 @@ body {
   }
   
   .navbar {
-    top: 10px;
-    max-width: calc(100% - 1rem);
-    padding: 0.5rem 1rem;
-    left: 50%;
-    transform: translateX(-50%);
-    width: auto;
-    min-width: calc(100% - 1rem);
+    padding: 0.5rem 0;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.06);
+    position: fixed;
+    top: 0.5rem;
+    left: 0.5rem;
+    right: 0.5rem;
+    border-radius: 20px;
+    z-index: 1000;
   }
   
   .nav-container {
-    gap: 1rem;
     justify-content: space-between;
-    width: 100%;
+    padding: 0 1rem;
   }
   
   .logo-text {
     font-size: 1rem;
-    max-width: 200px;
+    max-width: 180px;
     overflow: hidden;
+    white-space: nowrap;
     text-overflow: ellipsis;
   }
-  
+
   .logo-icon {
     width: 36px;
     height: 36px;
@@ -1140,30 +1144,28 @@ body {
   
   .hamburger span {
     width: 18px;
-    height: 2px;
   }
   
   .nav-links-desktop {
-    display: none !important;
+    display: none;
   }
   
   .nav-cta {
-    display: none !important;
+    display: none;
   }
   
   .mobile-menu {
     top: 80px;
     width: calc(100% - 1rem);
-    max-width: 350px;
   }
-  
+
   .hero {
-    padding: 6rem 0 0;
+    padding: 2rem 0 0; /* Reduced from 6rem to 2rem */
     min-height: auto;
   }
   
   .hero-content {
-    padding-bottom: 4rem;
+    padding-bottom: 2rem; /* Reduced from 4rem to 2rem */
   }
   
   .hero-buttons {
@@ -1229,6 +1231,14 @@ body {
   
   .mobile-menu-content {
     padding: 1.5rem;
+  }
+  
+  .hero {
+    padding: 1.5rem 0 0; /* Further reduced for very small screens */
+  }
+  
+  .hero-content {
+    padding-bottom: 1.5rem; /* Further reduced for very small screens */
   }
 }
 
@@ -5297,6 +5307,14 @@ body {
   
   .mobile-menu-content {
     padding: 1.5rem;
+  }
+  
+  .hero {
+    padding: 1.5rem 0 0; /* Further reduced for very small screens */
+  }
+  
+  .hero-content {
+    padding-bottom: 1.5rem; /* Further reduced for very small screens */
   }
 }
 
